@@ -13,6 +13,14 @@
 
             <Label Text="Longitude:" />
             <Entry x:Name="lbl_longitude" Text="-122,084" />
+
+            <Button Text="Obter Placemark" Clicked="Button_Clicked_1"/>
+
+            <Label x:Name="lbl_reverso" Text="Dados gerais de local"/>
+
+            <Button Text="Obter previsão do tempo" Clicked="Button_Clicked_2"/>
+
+            <Label x:Name="lbl_previsao"/>
         </StackLayout>
     </ScrollView>
 </ContentPage>
