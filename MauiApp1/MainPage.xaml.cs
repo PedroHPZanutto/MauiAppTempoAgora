@@ -97,7 +97,7 @@ namespace MauiApp1
             return "Nada";
         }
 
-        private void Button_Clicked_1(object sender, EventArgs e)
+        private async void Button_Clicked_1(object sender, EventArgs e)
         {
             double latitude = Convert.ToDouble(lbl_latitude.Text);
             double longitude = Convert.ToDouble(lbl_longitude.Text);
